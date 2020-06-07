@@ -1,0 +1,12 @@
+canvas {
+  border: 1px solid black;
+}
+
+.buttons-holder {
+  width: 505px;
+}
+
+.main-action-button {
+  display: inline-block;
+  margin: 0px 20px;
+}

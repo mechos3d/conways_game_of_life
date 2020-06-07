@@ -1,0 +1,20 @@
+1
+Page showing 20x20 board.
+Initial position is preset ( no user input for this yet )
+Send this to server - starts game. (endpoint /start)
+Server responds five times with motions.
+Now user can add a point. (endpoint /add_cell)
+.. and so on..
+
+In the future - other player can join the game.
+And when two players are in the game - server sends a signal to input a cell to only one of them - the other one just waits.
+
+ ---
+Simpler option with no websockets - server returns one step. User can add another cell or proceed without adding.
+
+2
+
+3
+
+4
+
